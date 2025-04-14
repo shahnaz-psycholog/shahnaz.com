@@ -1,103 +1,113 @@
 <!DOCTYPE html>
-<html lang="az">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Psixoloq Shahnaz Abdullayeva</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      background: #f1f1f1;
-      color: #333;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 3em;
-      color: #2c3e50;
-      margin-top: 20px;
-    }
-
-    p {
-      font-size: 1.2em;
-      max-width: 500px;
-      margin: 10px auto 30px;
-      color: #7f8c8d;
-    }
-
-    a.button {
-      background-color: #3498db;
-      color: white;
-      padding: 12px 24px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    a.button:hover {
-      background-color: #2980b9;
-    }
-
-    .image-container img {
-      border-radius: 50%;
-      margin-top: 30px;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    footer {
-      margin-top: 50px;
-      font-size: 0.9em;
-      color: #7f8c8d;
-    }
-
-    .instagram-gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin-top: 30px;
-    }
-
-    .instagram-gallery img {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahnaz Abdullayeva</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #333;
+        }
+        .bio {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .services {
+            margin-top: 40px;
+        }
+        .services h2 {
+            text-align: center;
+            color: #333;
+        }
+        .service-list {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service {
+            width: 30%;
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .service h3 {
+            color: #007bff;
+        }
+        .service p {
+            font-size: 16px;
+            color: #555;
+        }
+        .contact {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 20px;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <h1>Salam, mən Shahnaz Abdullayeva — Psixoloq</h1>
-  <p>Burada psixoloji dəstək, terapiya xidmətləri və mütəxəssis məsləhətləri haqqında məlumat tapa bilərsiniz.</p>
-  <a class="button" href="mailto:shahnaz@example.com">Əlaqə Saxla</a>
+    <header>
+        <h1>Shahnaz Abdullayeva</h1>
+        <p>Psixoloq, NLP Master, Access Bars, Life Coach</p>
+    </header>
+    <section>
+        <div style="text-align: center;">
+            <img src="https://github.com/yourusername/shahnaz.com/raw/main/images/profile.jpg" alt="Shahnaz Abdullayeva" class="profile-image">
+        </div>
+        <div class="bio">
+            <p>Shahnaz Abdullayeva psixoloq, NLP Master və Access Bars mütəxəssisi olaraq insanların həyatına müsbət dəyişikliklər gətirmək üçün fəaliyyət göstərir. Psixoloji seanslar və şəxsi inkişaf sahəsində təcrübəli bir həyat coach-u olaraq, insanların daha sağlam və məqsədyönlü həyat sürmələrinə dəstək olur.</p>
+        </div>
+    </section>
 
-  <div class="image-container">
-    <!-- Profil şəkilini bura əlavə et -->
-    <img src="https://www.example.com/profil-shekili.jpg" alt="Shahnaz Abdullayeva">
-  </div>
+    <section class="services">
+        <h2>Xidmətlər</h2>
+        <div class="service-list">
+            <div class="service">
+                <h3>NLP Master</h3>
+                <p>NLP (Neuro-Linguistic Programming) insanın beynindəki davranışları dəyişdirərək, məqsədlərinə daha sürətli çatmasını təmin edən bir metodikadır. NLP Master olaraq, mən insanlara öz davranışlarını dəyişdirməyə və daha məqsədyönlü həyat qurmağa kömək edirəm.</p>
+            </div>
+            <div class="service">
+                <h3>Access Bars</h3>
+                <p>Access Bars, insanların həyatında mövcud olan blokajları aradan qaldırmağa kömək edən enerji işləri ilə tətbiq edilən bir terapiya üsuludur. Bu metodla, insanların psixoloji və emosional yükü azaldılır və rahatlama təmin edilir.</p>
+            </div>
+            <div class="service">
+                <h3>Life Coach</h3>
+                <p>Life Coach xidmətim, həyatınızı daha məqsədyönlü yaşamağınız üçün sizə rəhbərlik edir. Hedeflərinizi müəyyənləşdirərək, həyatınızda daha sağlam dəyişikliklər etmənizə kömək olur.</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- Instagram şəkil qalereyası -->
-  <div class="instagram-gallery">
-    <img src="https://www.example.com/instagram-shekili1.jpg" alt="Instagram Image 1">
-    <img src="https://www.example.com/instagram-shekili2.jpg" alt="Instagram Image 2">
-    <img src="https://www.example.com/instagram-shekili3.jpg" alt="Instagram Image 3">
-    <img src="https://www.example.com/instagram-shekili4.jpg" alt="Instagram Image 4">
-  </div>
-
-  <footer>
-    <p>&copy; 2025 Psixoloq Shahnaz Abdullayeva | Bütün hüquqlar qorunur.</p>
-  </footer>
+    <section class="contact">
+        <h2>Əlaqə</h2>
+        <p>Əlavə məlumat üçün mənimlə əlaqə saxlamaq üçün aşağıdakı linkə klikləyin:</p>
+        <a href="https://www.instagram.com/psixoloq_abdullayeva_" target="_blank">Instagram</a>
+    </section>
 </body>
 </html>
