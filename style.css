@@ -5,61 +5,61 @@ body, html {
 }
 
 .hero {
-  background: url('background.jpg') no-repeat center center/cover;
-  height: 100vh;
+  background-image: url('https://tse3.mm.bing.net/th?id=OIP.vkDsuNTBdkhIWY7zDkSKQAHaFj&pid=Api');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
   color: white;
-  position: relative;
-}
-
-.overlay {
-  background: rgba(0, 0, 0, 0.6);
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
 }
 
 .container {
-  text-align: center;
-  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding: 30px;
+  display: inline-block;
 }
 
-.profile {
-  width: 150px;
-  height: 150px;
+.profile-img {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 3px solid white;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.services button {
-  background: #f0a500;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 16px;
-  border-radius: 25px;
-  cursor: pointer;
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.services {
+  margin-bottom: 30px;
+}
+
+.service-btn {
+  display: inline-block;
+  background-color: #ffd700;
+  color: #000;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 10px 5px;
   transition: background 0.3s;
 }
 
-.services button:hover {
-  background: #d48806;
+.service-btn:hover {
+  background-color: #ffcc00;
 }
 
-.contact {
-  margin-top: 30px;
+.contact p {
+  margin: 5px 0;
   font-size: 16px;
 }
 
-.contact a {
-  color: #ffd;
-  text-decoration: none;
-}
-
 .insta-icon {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   margin-top: 10px;
 }
